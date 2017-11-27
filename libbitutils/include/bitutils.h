@@ -3,9 +3,6 @@
 #include <cstdint>
 #include <iostream>
 
-#ifndef BITUTILS_H_
-#define BITUTILS_H_
-
 #if defined(_MSC_VER)
 
 #include <intrin.h>
@@ -107,4 +104,3 @@ class BitWizard {
   static uint32_t highest_order_bit_index_arch(uint32_t value);
   static uint64_t highest_order_bit_index_arch(uint64_t value);
 };
-#endif  // !BITUTILS_H_

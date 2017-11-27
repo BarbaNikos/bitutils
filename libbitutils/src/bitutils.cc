@@ -1,6 +1,4 @@
-#ifndef BITUTILS_H_
-#include "../include/bitutils.h"
-#endif
+#include <bitutils.h>
 
 /*
  *  * Technique found at S. E. Anderson's `Bit Twiddling Hacks' web-page
